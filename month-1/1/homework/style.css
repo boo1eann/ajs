@@ -1,0 +1,127 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+hr {
+  width: 60%;
+  margin: 0 auto;
+  border-color: rgb(212, 208, 208);
+}
+
+.main {
+  margin: 0 auto;
+  /* max-width: 900px; */
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(31, 17, 44);
+}
+
+/* Aside */
+.aside {
+  flex-grow: 0.2;
+  border-right: 1px solid rgb(133, 106, 158);
+}
+
+.aside-container {
+  padding: 25px;
+  margin: 0 auto;
+}
+
+/* Aside Header */
+
+.header__profile-img {
+  display: block;
+  width: 100%;
+}
+
+.header__name {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.header__pos-title {
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: rgb(133, 106, 158);
+}
+
+.header__quote-author {
+  margin-bottom: 5px;
+  color: rgb(163, 161, 161);
+}
+
+/* Profile Info */
+.profile-info__list,
+.languages__list {
+  list-style: none;
+}
+
+.profile-info__item,
+.languages__item {
+  margin-bottom: 15px;
+}
+
+.profile-info__title,
+.profile-info__item-title {
+  font-size: 14px;
+}
+
+.profile-info__title,
+.languages__title {
+  margin-bottom: 7px;
+}
+
+/* Languages Info */
+.languages__lang-lvl {
+  font-size: 12px;
+  color: rgb(163, 159, 159);
+}
+
+/* Achievements */
+.achievements {
+  flex-grow: 0.8;
+}
+
+/* Skills */
+.skills {
+  width: 100%;
+  padding: 50px;
+}
+
+.skills__title {
+  margin-bottom: 30px;
+}
+
+.skills__list {
+  list-style: none;
+}
+
+.skills__name {
+  color: rgb(133, 106, 158);
+}
+
+.skills__progress {
+  width: 100%;
+  height: 40px;
+}
+
+/* Edu */
+.education__name {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
