@@ -32,7 +32,7 @@ hr {
 
 /* Aside */
 .aside {
-  flex-grow: 0.2;
+  /* flex-grow: 1; */
   border-right: 1px solid rgb(133, 106, 158);
 }
 
@@ -94,7 +94,7 @@ hr {
 
 /* Achievements */
 .achievements {
-  flex-grow: 0.8;
+  flex-grow: 1;
 }
 
 /* Skills */
